@@ -10,7 +10,7 @@ The development of open source software (OSS) projects usually have been driven 
 
 
 ## Content
-- Dataset: a dataset directory
+- **Dataset**: a dataset directory
   - `gitcoin_dataset_5.csv`
     - The dataset only contains the 'Mainnet' network.
     - The dataset ended on 31 December 2020.
@@ -54,7 +54,7 @@ The development of open source software (OSS) projects usually have been driven 
     - lastAct_activity_type
     ```
   
-- Script: Scripts directory
+- **Script**: Scripts directory
   - `gitcoin_rest_api.ipynb`: the script is for collecting datasets via Gitcoin API.
   - `gitcoin_spearman_correlation.ipynb`: the script for finding Spearman's correlations between each feature.
   - `gitcoin_random_forests_setting1.ipynb`: the script for finding the feature importance of all features.

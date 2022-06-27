@@ -37,7 +37,7 @@ The development of open source software (OSS) projects usually have been driven 
       - issue_description_text
     ```
   - `activities_collection_3.csv`
-    - The dataset is including new fields extracted from the ‘activities array’ as the following:
+    - The new fields extracted from the ‘activities array’ are as follows:
     ```
     - duration_create_to_new_bounty
     - duration_create_to_firstAct
@@ -53,7 +53,13 @@ The development of open source software (OSS) projects usually have been driven 
     - firstAct_activity_type
     - lastAct_activity_type
     ```
-  
+  - `changedBounty2.csv`
+    - The new fields extracted from the ‘activities array’ with focuses on the change of bounty value are as follows:
+    ```
+    - increased_bounty_times
+    - changed_bounty_value
+    ```
+
 - **Script**: Scripts directory
   - `gitcoin_rest_api.ipynb`: the script is for collecting datasets via Gitcoin API.
   - `gitcoin_spearman_correlation.ipynb`: the script for finding Spearman's correlations between each feature.

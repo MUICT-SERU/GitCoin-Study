@@ -59,7 +59,7 @@ The development of open source software (OSS) projects usually have been driven 
   - `gitcoin_spearman_correlation.ipynb`: the script for finding Spearman's correlations between each feature.
   - `gitcoin_random_forests_setting1.ipynb`: the script for finding the feature importance of all features.
   - `gitcoin_random_forests_setting2.ipynb`: the script for finding the feature importance of manipulable features.
-  - `gitcoin_point_biserial.ipynb`: this script is the calculation of point biserial.
+  - `gitcoin_point_biserial.ipynb`: this script is the calculation of Point-biserial correlation.
 
 ## Authors
 - Morakot Choetkiertikul

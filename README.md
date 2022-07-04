@@ -25,11 +25,10 @@ README.md
 ```
 
 ## Content
-- **Dataset**: a dataset directory
+- **Dataset** contains
   - `gitcoin_dataset_5.csv`
     - The dataset only contains the 'Mainnet' network.
-    - The dataset ended on 31 December 2020.
-    - The dataset is including the new field as the following:
+    - The dataset includes the extracted attributes as follows:
     ```
     - description_length
     - duration_create_to_expire
@@ -41,18 +40,8 @@ README.md
     - number_of_fulfillments
     - number_of_interests
     ```
-    - The dataset is excluding some fields as the following:
-    ```
-    - Array
-      - fulfillments array
-      - interested array
-      - activities array
-    - Field with too long description which ruin the format of CSV file
-      - issue_description
-      - issue_description_text
-    ```
   - `activities_collection_3.csv`
-    - The new fields extracted from the ‘activities array’ are as follows:
+    - The duration-related features are as follows:
     ```
     - duration_create_to_new_bounty
     - duration_create_to_firstAct
@@ -69,15 +58,15 @@ README.md
     - lastAct_activity_type
     ```
   - `changedBounty2.csv`
-    - The new fields extracted from the ‘activities array’ with focuses on the change of bounty value are as follows:
+    - The bounty value-related features are as follows:
     ```
     - increased_bounty_times
     - changed_bounty_value
     ```
 
 - **Script**: Scripts directory
-  - `gitcoin_rest_api.ipynb`: the script is for collecting datasets via Gitcoin API.
-  - `gitcoin_spearman_correlation.ipynb`: the script for finding Spearman's correlations between each feature.
+  - `gitcoin_rest_api.ipynb`: the script is for collecting data from Gitcoin API.
+  - `gitcoin_spearman_correlation.ipynb`: the script for calculate Spearman's correlations between features.
   - `gitcoin_random_forests_setting1.ipynb`: the script for finding the feature importance of all features.
   - `gitcoin_random_forests_setting2.ipynb`: the script for finding the feature importance of manipulable features.
   - `gitcoin_point_biserial.ipynb`: this script is the calculation of Point-biserial correlation.

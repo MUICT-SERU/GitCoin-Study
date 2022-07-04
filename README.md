@@ -7,7 +7,7 @@ This repository provides a replication package of our paper submission titled "S
 The development of open source software (OSS) projects usually have been driven through collaborations among contributors and strongly rely on volunteering. Thus, allocating software practitioners (e.g., contributors) on a particular task is non trivial and draws attention away from the development. Therefore, a number of bug bounty platforms have been emerged to address this problem through bounty rewards. Especially, Gitcoin, a new bounty platform, introduces a bounty reward mechanism that allow individual issue owners (backer) to define a reward value using cryptocurrencies rather than using crowdfunding mechanisms. Although a number studies investigated the phenomenon on bounty platforms, those rely on different bounty reward systems. Our study thus investigates the association between the Gitcoin bounty and their outcomes (i.e. success and non-success). We empirically study over 4,000 Gitcoin bounty issues using statistical analysis and machine learning techniques. We found that the length of bounty description, the bounty value, the bounty proposing time, and the contributor's required experience level are important factors influencing bounty issue resolving outcome.
 
 ## Folder structure
-
+```
 Dataset/
 ├─ activities_collection_3.csv
 ├─ changedBounty2.csv
@@ -22,7 +22,7 @@ Script/
 ├─ gitcoin_rest_api.ipynb
 ├─ gitcoin_spearman_correlation.ipynb
 README.md
-
+```
 
 ## Content
 - **Dataset**: a dataset directory

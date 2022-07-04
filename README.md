@@ -8,6 +8,21 @@ The development of open source software (OSS) projects usually have been driven 
 
 ## Folder structure
 
+Dataset/
+├─ activities_collection_3.csv
+├─ changedBounty2.csv
+├─ gitcoin_dataset_5.csv
+Script/
+├─ gitcoin_graphs_corranalysis.ipynb
+├─ calBountyValue-final.py
+├─ gitcoin_graphs_featuredesc.ipynb
+├─ gitcoin_point_biserial.ipynb
+├─ gitcoin_random_forests_setting1.ipynb
+├─ gitcoin_random_forests_setting2.ipynb
+├─ gitcoin_rest_api.ipynb
+├─ gitcoin_spearman_correlation.ipynb
+README.md
+
 
 ## Content
 - **Dataset**: a dataset directory

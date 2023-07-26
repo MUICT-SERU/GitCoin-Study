@@ -4,7 +4,20 @@ This repository provides a replication package of our paper submission titled "S
 
 ## Abstract
 
-The development of open source software (OSS) projects usually have been driven through collaborations among contributors and strongly rely on volunteering. Thus, allocating software practitioners (e.g., contributors) on a particular task is non trivial and draws attention away from the development. Therefore, a number of bug bounty platforms have been emerged to address this problem through bounty rewards. Especially, Gitcoin, a new bounty platform, introduces a bounty reward mechanism that allow individual issue owners (backer) to define a reward value using cryptocurrencies rather than using crowdfunding mechanisms. Although a number studies investigated the phenomenon on bounty platforms, those rely on different bounty reward systems. Our study thus investigates the association between the Gitcoin bounty and their outcomes (i.e. success and non-success). We empirically study over 4,000 Gitcoin bounty issues using statistical analysis and machine learning techniques. We found that the length of bounty description, the bounty value, the bounty proposing time, and the contributor's required experience level are important factors influencing bounty issue resolving outcome.
+The development of open-source software (OSS) projects usually have been driven through collaborations among contributors and strongly relies on volunteering. Thus, allocating software practitioners
+(e.g., contributors) to a particular task is non-trivial and draws attention away from the development.
+Therefore, a number of bug bounty platforms have emerged to address this problem through bounty
+rewards. Especially, Gitcoin, a new bounty platform, introduces a bounty reward mechanism that
+allows individual issue owners (backers) to define a reward value using cryptocurrencies rather than
+using crowdfunding mechanisms. Although a number of studies have investigated the phenomenon
+on bounty platforms, those rely on different bounty reward systems. Our study thus investigates the
+association between the Gitcoin bounties and their outcomes (i.e., success and non-success). We
+empirically study over 4,000 issues with Gitcoin bounties using statistical analysis and machine
+learning techniques. We also conducted a comparative study with the Bountysource platform to gain
+insights into the usage of both platforms. Our study highlights the importance of factors such as the
+length of the project, issue description, type of bounty issue, and the bounty value, which are found to
+be highly correlated with the outcome of bounty issues. These findings can provide useful guidance
+to practitioners
 
 ## Folder structure
 ```

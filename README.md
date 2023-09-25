@@ -1,5 +1,7 @@
 # Studying the association between Gitcoin bounties and issue-addressing outcomes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8313155.svg)](https://doi.org/10.5281/zenodo.8313155)
+
 This repository provides a replication package of our paper submission titled "Studying the association between Gitcoin bounties and issue-addressing outcomes". 
 
 ## Abstract
